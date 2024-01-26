@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto-Medium.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+a.text:active, 
+a.text:hover,  
+a.text {
+  text-decoration: none;
+  color: #666;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.Links.text:active, 
+.Links.text:hover,  
+.Links.text,
+.Links{
+  vertical-align: middle;
+  text-decoration: none;
+  font-family: Roboto;
+  color: #117DC1;
+  font-size: 18px;
+
+}
+.action{
+  width:  10em;
+  height: 2em;
+  background-color: #EDF9FF;
+  color: #fff;
+  border: 1px solid;
+}
+
+.Links :active{}
