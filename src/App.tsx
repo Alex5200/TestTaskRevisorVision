@@ -10,7 +10,6 @@ import { json } from "stream/consumers";
 
 export default function App() {
   document.cookie = ""
-  const [saveImg, setSaveImg] = useState([])
 
   return (
     <div>
@@ -125,7 +124,6 @@ function Home() {
   useEffect(() =>{
 
     cookieState.map(e => StringsCookie += (e +"\n"))
-    setSaveImg(StringsCookie)
     console.log(document.cookie)
   }, [cookieState, JSON.stringify(cookieState), cookie, JSON.stringify(cookie)])
 
